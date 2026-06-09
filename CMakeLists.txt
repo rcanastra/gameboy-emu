@@ -4,7 +4,7 @@ project(GameboyEmu)
 # 1. Find the packages
 find_package(SDL2 REQUIRED)
 
-# 2. Define your executable
+# 2. Define executable
 # add_executable(gameboy-emu src/gameboy-emu.cpp)
 add_executable(gameboy-emu src/cartridge.cpp src/cpu.cpp src/gameboy-emu.cpp src/mmu.cpp)
 
